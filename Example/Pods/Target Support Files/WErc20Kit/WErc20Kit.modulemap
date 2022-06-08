@@ -1,0 +1,6 @@
+framework module WErc20Kit {
+  umbrella header "WErc20Kit-umbrella.h"
+
+  export *
+  module * { export * }
+}

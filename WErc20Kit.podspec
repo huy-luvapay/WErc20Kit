@@ -21,22 +21,37 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/huy-luvapay/WErc20Kit'
+  s.homepage         = 'https://github.com/huy-luvapay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huy-luvapay' => 'huy.van@epapersmart.com' }
   s.source           = { :git => 'https://github.com/huy-luvapay/WErc20Kit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'WErc20Kit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WErc20Kit' => ['WErc20Kit/Assets/*.png']
-  # }
+  s.ios.deployment_target = '11.0'
+  
+  s.swift_version = '5.0'
+  
+  s.source_files = 'WErc20Kit/Classes/**/*.{h,m,mm,swift}'
+  
+  s.resources = [
+  ]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+
+  s.dependency 'WEthereumKit', "~> 0.1.2"
+  s.dependency 'OpenSslKit.swift', '~> 1.0'
+  s.dependency 'Secp256k1Kit.swift', '~> 1.0'
+
+  s.dependency 'RxSwift'
+  s.dependency 'BigInt'
+  s.dependency 'GRDB.swift'
+    
+    
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

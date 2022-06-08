@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WErc20Kit_Example' do
+  pod 'WErc20Kit', :path => '../'
+
+  target 'WErc20Kit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

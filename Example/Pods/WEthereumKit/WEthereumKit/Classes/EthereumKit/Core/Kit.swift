@@ -56,6 +56,7 @@ public class Kit {
                     self?.blockchain.syncAccountState()
                 })
                 .disposed(by: disposeBag)
+        
     }
 
 }
@@ -297,6 +298,15 @@ extension Kit: IBlockchainDelegate {
 }
 
 extension Kit {
+    
+    public static func clearDB() throws {
+        let fileManager = FileManager.default
+        let fileUrls = try fileManager.contentsOfDirectory(at: dataDirectoryUrl(), includingPropertiesForKeys: nil)
+
+        for filename in fileUrls {
+            try fileManager.removeItem(at: filename)
+        }
+    }
 
     public static func clear(exceptFor excludedFiles: [String]) throws {
         let fileManager = FileManager.default

@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "WEthereumKit": [
-      "~> 0.1.2"
+      "~> 0.1.5"
     ],
     "OpenSslKit.swift": [
       "~> 1.0"

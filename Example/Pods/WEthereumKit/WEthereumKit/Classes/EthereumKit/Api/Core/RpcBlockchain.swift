@@ -130,6 +130,7 @@ extension RpcBlockchain: IBlockchain {
                 })
                 .disposed(by: disposeBag)
     }
+    
 
     var lastBlockHeight: Int? {
         storage.lastBlockHeight

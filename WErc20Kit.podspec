@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WErc20Kit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.11'
   s.summary          = 'A short description of WErc20Kit.'
 
 # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
 
-  s.dependency 'WEthereumKit', "~> 0.1.5"
+  s.dependency 'WEthereumKit', "~> 0.1.6"
   s.dependency 'OpenSslKit.swift', '~> 1.0'
   s.dependency 'Secp256k1Kit.swift', '~> 1.0'
 

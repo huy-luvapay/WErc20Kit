@@ -1,6 +1,6 @@
 {
   "name": "WErc20Kit",
-  "version": "0.1.0",
+  "version": "0.1.11",
   "summary": "A short description of WErc20Kit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huy-luvapay",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huy-luvapay/WErc20Kit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.11"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "WEthereumKit": [
-      "~> 0.1.5"
+      "~> 0.1.6"
     ],
     "OpenSslKit.swift": [
       "~> 1.0"

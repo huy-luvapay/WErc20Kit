@@ -120,14 +120,14 @@ PODS:
     - SwiftNIOEmbedded (= 2.40.0)
     - SwiftNIOHTTP1 (= 2.40.0)
     - SwiftNIOPosix (= 2.40.0)
-  - WErc20Kit (0.1.0):
+  - WErc20Kit (0.1.11):
     - BigInt
     - GRDB.swift
     - OpenSslKit.swift (~> 1.0)
     - RxSwift
     - Secp256k1Kit.swift (~> 1.0)
-    - WEthereumKit (~> 0.1.5)
-  - WEthereumKit (0.1.5):
+    - WEthereumKit (~> 0.1.6)
+  - WEthereumKit (0.1.6):
     - Alamofire (~> 5.6.1)
     - BigInt
     - BlueSocket
@@ -219,8 +219,8 @@ SPEC CHECKSUMS:
   SwiftNIOSSL: d153c5a6fc5b2301b0519b4c4d037a9414212da6
   SwiftNIOTLS: 598af547490133e9aac52aed0c23c4a90c31dcfc
   SwiftNIOWebSocket: cb67e4bf1b9f6895d2103b15d8369f8504ea42da
-  WErc20Kit: e9d4ab64b11b2b9c88373087cc296f646e1da8c6
-  WEthereumKit: 76fe9f922fd9e40a5a7ae10db75f95d2717d263c
+  WErc20Kit: 3252c8d65b9f7d404d564f6f3e6550b0494786ee
+  WEthereumKit: 440717fc70f4dc9bae4929ddef403912050a4f19
 
 PODFILE CHECKSUM: 771744d6d4f34dac286cc2ca6e118039400b8204
 

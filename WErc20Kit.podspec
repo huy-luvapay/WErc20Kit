@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WErc20Kit'
-  s.version          = '0.1.11'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of WErc20Kit.'
 
 # This description is used to generate tags and improve search results.
